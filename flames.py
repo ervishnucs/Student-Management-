@@ -24,6 +24,6 @@ def flames_game(name1, name2):
 
     return flames[0]
 
-# Example usage
+
 result = flames_game("Vishnupriya", "kishorekumar")
 print("Result:", result)
