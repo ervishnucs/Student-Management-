@@ -1,0 +1,1 @@
+{"S1001": {"name": "Alice", "batch": "2024", "attendance": {"total_days": 200, "present_days": 180}, "terms": {"Term 1": {"Math": 88, "Physics": 92, "English": 81}}}, "S1002": {"name": "Bob", "batch": "2024", "attendance": {"total_days": 0, "present_days": 0}, "terms": {"Term 1": {"Math": 85, "Physics": 89, "English": 79}}}}
