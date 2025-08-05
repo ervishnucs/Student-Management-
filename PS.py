@@ -109,6 +109,7 @@ class StudentManagementSystem:
             for subject, mark in subjects.items():
                 print(f"    {subject}: {mark}")
         print(f"\nOverall Average: {self.calculate_average(student_id):.2f}")
+        print(f"Topper in {student['batch']} for Term 1: {self.get_topper_by_term('Term 1')}\n")
 
     def export_data_to_json(self, filename):
         try:
@@ -147,7 +148,7 @@ s.generate_student_report("S1001")
 s.export_data_to_json("students_export.json")
 
 
-s.import_data_from_json("students.json")
+s.import_data_from_json("students_export           .json")
 
 
 ranked = s.rank_students_by_overall_average("2024")
